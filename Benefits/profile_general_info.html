@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Process</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="profile_wrapper">
+        <div class="container">
+            <h2 class="heading"> الملف الشخصي </h2>
+            <ul class="nav profile_header nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="active" data-toggle="tab" href="#general_info"> البيانات العامة </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#main_info" data-toggle="tab"> البيانات الأساسية </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#attached_files" data-toggle="tab"> الملفات المرفقة </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#benefits_data" data-toggle="tab"> بيانات المعالين </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pays_data" data-toggle="tab"> المدفوعات </a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="general_info" class="tab-pane active">
+                    <form action="" class="general_data_form">
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label for="name" class=" control-label"> الإسم </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="name">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="identity" class=" control-label"> رقم الهوية </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="identity">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="identity_date" class=" control-label"> تاريخ انتهاء الهوية</label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="identity_date">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="gender" class=" control-label"> النوع </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="gender">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="status" class=" control-label"> الحالة الاجتماعية </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="status">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="birth_date" class=" control-label"> تاريخ الميلاد </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="birth_date">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="family" class=" control-label"> العائلة </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="family">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="bank" class=" control-label"> اسم البنك </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="bank">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12" style="margin-bottom:2rem ;">
+                                <label for="iban" class=" control-label"> رقم الايبان </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="iban">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <button class="main_link"> حفظ البيانات </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="main_info" class="tab-pane fade">
+                    <form action="" class="main_data_form">
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label for="name" class=" control-label"> البريد الإلكتروني </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="name">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="identity" class=" control-label">رقم الجوال </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="identity">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="city" class=" control-label"> الدولة </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="city">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="gender" class=" control-label"> المدينة </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="gender">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="status" class=" control-label"> الشارع </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="status">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="birth_date" class=" control-label"> العنوان </label>
+                                <div class="">
+                                    <input type="text" class="form-control" id="street" name="birth_date">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <button class="main_link"> حفظ البيانات </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="attached_files" class="tab-pane fade">
+                    <form action="" class="main_data_form">
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label for="" class=" control-label"> إرفاق مستند الهوية</label>
+                                <div class="attach_wrapper">
+                                    <input type="file" class="form-control" id="" name="">
+                                    <input type="text" />
+                                    <img src="imgs/attatch.png" alt="attach">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="" class=" control-label"> إرفاق مستند الايبان </label>
+                                <div class="attach_wrapper">
+                                    <input type="file" class="form-control" id="" name="">
+                                    <input type="text" />
+                                    <img src="imgs/attatch.png" alt="attach">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="" class=" control-label"> إرفاق مستند رقم العائلة </label>
+                                <div class="attach_wrapper">
+                                    <input type="file" class="form-control" id="" name="">
+                                    <input type="text" />
+                                    <img src="imgs/attatch.png" alt="attach">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="" class=" control-label">إرفاق مستند اثبات الحالة </label>
+                                <div class="attach_wrapper">
+                                    <input type="file" class="form-control" id="" name="">
+                                    <input type="text" />
+                                    <img src="imgs/attatch.png" alt="attach">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <button class="main_link"> حفظ البيانات </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="benefits_data" class="tab-pane fade">
+                    <span class="add_bnf" data-toggle="modal" data-target="#add_benefit">
+                        <img src="imgs/Icon awesome-plus.png" alt="plus" class="ml-2">
+                        أضف معال جديد
+                    </span>
+                    <section class="">
+                        <table id="table_id" class="display w-100">
+                            <thead>
+                                <tr>
+                                    <th>الرقم</th>
+                                    <th>اسم المعال</th>
+                                    <th>الجنس</th>
+                                    <th>النوع</th>
+                                    <th>العلاقة </th>
+                                    <th> تاريخ الميلاد </th>
+                                    <th> رقم الهوية </th>
+                                    <th> ملف اثبات الهوية </th>
+                                    <th> الحالة </th>
+                                    <th style="padding:24px ;"> حذف </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td>26</td>
+                                    <td>الرياض</td>
+                                    <td>يتيم الأبوين </td>
+                                    <td>95%</td>
+                                    <td>500 ر.س</td>
+                                    <td>03-02-2022</td>
+                                    <td> <img src="imgs/trash_ben.png" alt="trash_ben"> </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td>3</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td>26</td>
+                                    <td>الرياض</td>
+                                    <td>يتيم الأبوين </td>
+                                    <td>95%</td>
+                                    <td>500 ر.س</td>
+                                    <td>03-02-2022</td>
+                                    <td> <img src="imgs/trash_ben.png" alt="trash_ben"> </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td>4</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td>26</td>
+                                    <td>الرياض</td>
+                                    <td>يتيم الأبوين </td>
+                                    <td>95%</td>
+                                    <td>500 ر.س</td>
+                                    <td>03-02-2022</td>
+                                    <td> <img src="imgs/trash_ben.png" alt="trash_ben"> </td>
+
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td>26</td>
+                                    <td>الرياض</td>
+                                    <td>يتيم الأبوين </td>
+                                    <td>95%</td>
+                                    <td>500 ر.س</td>
+                                    <td>03-02-2022</td>
+                                    <td> <img src="imgs/trash_ben.png" alt="trash_ben"> </td>
+
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td>26</td>
+                                    <td>الرياض</td>
+                                    <td>يتيم الأبوين </td>
+                                    <td>95%</td>
+                                    <td>500 ر.س</td>
+                                    <td>03-02-2022</td>
+                                    <td> <img src="imgs/trash_ben.png" alt="trash_ben"> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+                <div id="pays_data" class="tab-pane fade">
+                    <section class="">
+                        <table id="table_id" class="display w-100">
+                            <thead>
+                                <tr>
+                                    <th>الرقم</th>
+                                    <th> الدفعيات </th>
+                                    <th>القيمة </th>
+                                    <th class="date_cell">التاريخ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td class="date_cell">26</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td class="date_cell"> 26</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td class="date_cell">26</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>أحمد عبد الله محمد</td>
+                                    <td>ذكر</td>
+                                    <td class="date_cell">26</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- add benefit modal  -->
+    <div class="modal fade kafala_modal " id="add_benefit" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title heading" id="exampleModalLongTitle"> إضافه معال جديد </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="form-group col-lg-12">
+                                <label for="" class="myName control-label"> الاسم رباعي </label>
+                                <div class="">
+                                    <input type="text" value="5" class="form-control" id="myName" name="myName">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="birth_date" class="myName control-label"> تاريخ الميلاد  </label>
+                                <div class="pick_date position-relative">
+                                    <input type="text" class="form-control" id="birth_date" name="birth_date">
+                                    <input class="date_input" type="date" name="birth_date" id="birth_date">
+                                    <img src="imgs/Icon awesome-calendar-alt.png" alt="calender">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="fatherName" class="myName control-label"> اسم الأب </label>
+                                <div class="">
+                                    <input type="text" value="5" class="form-control" id="fatherName" name="fatherName">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="fatherIdentity" class="myName control-label">رقم هوية الأب </label>
+                                <div class="">
+                                    <input type="text" value="5" class="form-control" id="fatherIdentity" name="fatherIdentity">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="motherName" class="myName control-label"> اسم الأم  </label>
+                                <div class="">
+                                    <input type="text" value="5" class="form-control" id="motherName" name="motherName">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="motherIdentity" class="myName control-label">رقم هوية الأم  </label>
+                                <div class="">
+                                    <input type="text" value="5" class="form-control" id="motherIdentity" name="motherIdentity">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="flat_number" class=" control-label"> حالة الأب </label>
+                                <select id="flat_number" class="custom-select">
+                                    <option selected>متوفى</option>
+                                    <option value="1">متزوج </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="flat_number" class=" control-label"> حالة الأم </label>
+                                <select id="flat_number" class="custom-select">
+                                    <option selected>متوفى</option>
+                                    <option value="1">متزوج </option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary"> اضافة  </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

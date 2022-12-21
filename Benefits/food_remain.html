@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Process</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" alt="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            عن الجمعية
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            تواصل معنا
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            المتجر
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            الخدمات
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">زكة المال </a>
+                            <a class="dropdown-item" href="#"> القرض الحسن </a>
+                            <a class="dropdown-item" href="#"> فائض الطعام </a>
+                            <a class="dropdown-item" href="#"> الأثاث و الاجهزة</a>
+                            <a class="dropdown-item" href="#"> النوادى</a>
+                            <a class="dropdown-item" href="#"> الاحتياجات الطارئة</a>
+                            <a class="dropdown-item" href="#"> الاسر المنتجة</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            الحكومة
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الكفالات</a>
+                    </li>
+                </ul>
+                <div class="nav_actions d-flex align-items-center">
+                    <div class="search">
+                        <span>
+                            <img src="imgs/search.png" alt="search" />
+                        </span>
+                    </div>
+                    <div class="login">
+                        <img src="imgs/user.png" alt="user" />
+                        <a href="#"> تسجيل الدخول </a>
+                    </div>
+                    <span class="separator">
+                        <img src="imgs/separator.png" alt="">
+                    </span>
+                    <div class="cart">
+                        <a href="#">
+                            <img src="imgs/shopping-cart.png" alt="cart" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="profile_wrapper">
+        <div class="container">
+            <h2 class="heading"> فائض الطعام </h2>
+            <div class="zakat_wrapper">
+                <span data-toggle="modal" data-target="#add_food" class="add_food">
+                    <img src="imgs/Icon awesome-plus.png" alt="plus">
+                    أضف فائض طعام
+                </span>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="zakat_content">
+                            <h5> مطعم حضرموت </h5>
+                            <ul class="list-unstyled p-0">
+                                <li>
+                                    <img src="imgs/Icon awesome-info-circle.png" alt="info">
+                                    <span>الوصف عن فائض الطعام المتوفر ... </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/metro-user.png" alt="user">
+                                    <span> 5000 مستفيد </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/awesome-mug-hot.png" alt="mug">
+                                    <span> 120 وجبة </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/map-food.png" alt="food">
+                                    <span> وجبه فراخ مشوية </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/material-location-on.png" alt="location">
+                                    <span> منطقه الرياض </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/Icon material-date-range.png" alt="date">
+                                    <span> 22-12-2023 حتى 29-12-2023 </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="zakat_content">
+                            <h5> مطعم حضرموت </h5>
+                            <ul class="list-unstyled p-0">
+                                <li>
+                                    <img src="imgs/Icon awesome-info-circle.png" alt="info">
+                                    <span>الوصف عن فائض الطعام المتوفر ... </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/metro-user.png" alt="user">
+                                    <span> 5000 مستفيد </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/awesome-mug-hot.png" alt="mug">
+                                    <span> 120 وجبة </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/map-food.png" alt="food">
+                                    <span> وجبه فراخ مشوية </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/material-location-on.png" alt="location">
+                                    <span> منطقه الرياض </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/Icon material-date-range.png" alt="date">
+                                    <span> 22-12-2023 حتى 29-12-2023 </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="zakat_content">
+                            <h5> مطعم حضرموت </h5>
+                            <ul class="list-unstyled p-0">
+                                <li>
+                                    <img src="imgs/Icon awesome-info-circle.png" alt="info">
+                                    <span>الوصف عن فائض الطعام المتوفر ... </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/metro-user.png" alt="user">
+                                    <span> 5000 مستفيد </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/awesome-mug-hot.png" alt="mug">
+                                    <span> 120 وجبة </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/map-food.png" alt="food">
+                                    <span> وجبه فراخ مشوية </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/material-location-on.png" alt="location">
+                                    <span> منطقه الرياض </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/Icon material-date-range.png" alt="date">
+                                    <span> 22-12-2023 حتى 29-12-2023 </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="zakat_content">
+                            <h5> مطعم حضرموت </h5>
+                            <ul class="list-unstyled p-0">
+                                <li>
+                                    <img src="imgs/Icon awesome-info-circle.png" alt="info">
+                                    <span>الوصف عن فائض الطعام المتوفر ... </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/metro-user.png" alt="user">
+                                    <span> 5000 مستفيد </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/awesome-mug-hot.png" alt="mug">
+                                    <span> 120 وجبة </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/map-food.png" alt="food">
+                                    <span> وجبه فراخ مشوية </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/material-location-on.png" alt="location">
+                                    <span> منطقه الرياض </span>
+                                </li>
+                                <li>
+                                    <img src="imgs/Icon material-date-range.png" alt="date">
+                                    <span> 22-12-2023 حتى 29-12-2023 </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- add  food remain modal    -->
+    <div class="modal fade kafala_modal " id="add_food" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title heading" id="exampleModalLongTitle"> إضافه فائض طعام  </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="form-group col-lg-12">
+                                <label for="flat_number" class=" control-label"> نوع الفائض من الطعام </label>
+                                <select id="flat_number" class="custom-select">
+                                    <option selected>فراخ </option>
+                                    <option value="1">بامية  </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="motherIdentity" class="myName control-label"> اسم المطعم </label>
+                                <div class="">
+                                    <input type="text" value="حضرموت" class="form-control" id="motherIdentity"
+                                        name="motherIdentity">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="motherIdentity" class="myName control-label"> رقم الجوال   </label>
+                                <div class="">
+                                    <input type="text" value="+9541333" class="form-control" id="motherIdentity"
+                                        name="motherIdentity">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="flat_number" class=" control-label"> الحي  </label>
+                                <select id="flat_number" class="custom-select">
+                                    <option selected> الحي الأول   </option>
+                                    <option value="1">بايبال </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="flat_number" class=" control-label"> المنطقة   </label>
+                                <select id="flat_number" class="custom-select">
+                                    <option selected> الرياض   </option>
+                                    <option value="1">بايبال </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="motherIdentity" class="myName control-label"> العنوان    </label>
+                                <div class="">
+                                    <input type="text" value="" class="form-control" id="motherIdentity"
+                                        name="motherIdentity">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary"> تأكيد الدفع </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
